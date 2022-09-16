@@ -19,7 +19,7 @@ pengenalan_function()
 def identitas_pembeli(nama, nomor_hape, pekerjaan):
    return (nama, nomor_hape, pekerjaan)
 
-biodata_pembeli = identitas_pembeli("yudi", "0812121212", "ADMIN")
+biodata_pembeli = identitas_pembeli("noval", "0812121212", "ADMIN")
 
 #Diketahui terdapat jenis bahan bakar yang dapat diisi (pertalait, pertameks, dan selar)
 def jenis_bbm(bbm):
