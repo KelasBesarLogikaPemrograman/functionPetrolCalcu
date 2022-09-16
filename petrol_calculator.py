@@ -17,10 +17,10 @@ pengenalan_function()
 
 
 #masukkan data nama pembeli yang meliputi (nama,nomerHape, pekerjaan) 
-def identitas_pembeli(nama,nomor_hape,pekerjaan):
-   return ()
+def identitas_pembeli(nama, nomor_hape, pekerjaan):
+   return (nama, nomor_hape, pekerjaan)
 
-biodata_pembeli = identitas_pembeli()
+biodata_pembeli = identitas_pembeli("Enggal", "08997531641", "Mahasiswa")
 
 
 #Diketahui terdapat jenis bahan bakar yang dapat diisi (pertalait, pertameks, dan selar)
@@ -29,24 +29,24 @@ def jenis_bbm(bbm):
         print(x),
 
 #masukkan data bbm
-tipe_bbm =[]
+tipe_bbm = jenis_bbm(("pertalait", "pertameks", "selar"))
 
 #harga untuk pertalait = 10000, pertamek = 12000, selar = 5000
-pertalait = 
-pertameks =  
-selar =
+pertalait = 10000
+pertameks =  12000
+selar = 5000
 
 #buatlah sebuah  fungsi yang mengidentifikasi jenis mobil pemberli dan jumlah liter kebutuhan
 
-def jenis_mobil (nama_brand,jumlah_liter):
-    return ()
+def jenis_mobil (nama_brand, jumlah_liter):
+    return (nama_brand, jumlah_liter)
 
 #panggil fyungsi jenis_mobil
-identifikasi_kendaraan = jenis_mobil()
+identifikasi_kendaraan = jenis_mobil("honda", 3)
 
 def hitung_biaya_bbm(liter, harga):
-    #rumus
-   return ()
+    #rumus = liter * harga
+   return total
 
 #panggil fungsi hitung biaya
 total_belanja = hitung_biaya_bbm()
@@ -60,7 +60,7 @@ print ()
 #gunakan recursion
 def belanja(uang):
   if(uang >= total_belanja):
-    sisa_uang = 
+    sisa_uang = uang - 360000
     belanja (sisa_uang)
     print(sisa_uang)
   else:
@@ -68,7 +68,7 @@ def belanja(uang):
   return sisa_uang
 
 print("\n\nRecursion Example Results")
-belanja()
+belanja(720000)
 #output jika uang 720000 dan total_belanja 360000
 #0
 #360000
