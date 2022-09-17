@@ -75,3 +75,4 @@ belanja(720000)
 #output jika uang 720000 dan total_belanja 360000
 #0
 #360000
+
