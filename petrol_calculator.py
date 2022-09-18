@@ -18,9 +18,9 @@ pengenalan_function()
 
 #masukkan data nama pembeli yang meliputi (nama,nomerHape, pekerjaan) 
 def identitas_pembeli(nama,nomor_hape,pekerjaan):
-   return ()
+   return (nama,nomor_hape,pekerjaan)
 
-biodata_pembeli = identitas_pembeli()
+biodata_pembeli = identitas_pembeli("yudi", "08237237237", "pengusaha")
 
 
 #Diketahui terdapat jenis bahan bakar yang dapat diisi (pertalait, pertameks, dan selar)
@@ -29,38 +29,41 @@ def jenis_bbm(bbm):
         print(x),
 
 #masukkan data bbm
-tipe_bbm =[]
+tipe_bbm = jenis_bbm (("pertalit", "pertameks", "selar"))
 
 #harga untuk pertalait = 10000, pertamek = 12000, selar = 5000
-pertalait = 
-pertameks =  
-selar =
+pertalait = 10000
+pertameks = 12000
+selar = 5000
 
 #buatlah sebuah  fungsi yang mengidentifikasi jenis mobil pemberli dan jumlah liter kebutuhan
 
 def jenis_mobil (nama_brand,jumlah_liter):
-    return ()
+    return (nama_brand, jumlah_liter)
 
 #panggil fyungsi jenis_mobil
-identifikasi_kendaraan = jenis_mobil()
+identifikasi_kendaraan = jenis_mobil("SUV", 10)
 
 def hitung_biaya_bbm(liter, harga):
-    #rumus
-   return ()
+    total = liter * harga
+   return (total)
 
 #panggil fungsi hitung biaya
-total_belanja = hitung_biaya_bbm()
+total_belanja = hitung_biaya_bbm(identifikasi_kendaraan[1], pertameks)
 
 print (total_belanja, "a")
 
 # print dengan contoh output yudi  telah membeli tipe bbm selar seharga  12000 dengan total belanja 360000 rupiah
-print ()
+nama = biodata_pembeli [0]
+bbm = "selar"
+
+print ("yudi telah membeli bbm", bbm, "seharga 12000 dengan total", total_belanja)
 
 #lakukan pembelajaan jika pembeli memiliki uang senilai tertentu lalu hitunglah sampai habis uangnya untuk dibelanjakan
 #gunakan recursion
 def belanja(uang):
   if(uang >= total_belanja):
-    sisa_uang = 
+    sisa_uang = uang - 360000
     belanja (sisa_uang)
     print(sisa_uang)
   else:
