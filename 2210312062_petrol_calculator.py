@@ -54,7 +54,7 @@ print (total_belanja, "a")
 
 # print dengan contoh output yudi  telah membeli tipe bbm selar seharga  12000 dengan total belanja 360000 rupiah
 nama = biodata_pembeli[0]
-bbm = tipe_bbm[0]
+bbm = tipe_bbm[1]
 total = hitung_biaya_bbm(30, 12000)
 
 print (f"{nama} telah membeli tipe bbm {bbm} seharga {pertameks} dengan total belanja {total} rupiah")
