@@ -41,7 +41,7 @@ def jenis_mobil (nama_brand,jumlah_liter):
     return (nama_brand,jumlah_liter)
 
 #panggil fyungsi jenis_mobil
-identifikasi_kendaraan = jenis_mobil ("honda", 3)
+identifikasi_kendaraan = jenis_mobil ("honda", 30)
 
 def hitung_biaya_bbm(liter, harga):
     biaya = liter * harga
