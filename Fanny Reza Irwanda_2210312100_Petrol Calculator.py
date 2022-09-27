@@ -50,7 +50,7 @@ print (identifikasi_kendaraan)
 
 def hitung_biaya_bbm(liter, harga):
     total_harga = liter * harga
-   return (total_harga)
+    return (total_harga)
 
 #panggil fungsi hitung biaya
 total_belanja = hitung_biaya_bbm(identifikasi_kendaraan[1], pertameks)
