@@ -46,7 +46,7 @@ def jenis_mobil (nama_brand,jumlah_liter):
 #panggil fyungsi jenis_mobil
 identifikasi_kendaraan = jenis_mobil("Nissan", 30)
 
-Print (identifikasi_kendaraan)
+print (identifikasi_kendaraan)
 
 def hitung_biaya_bbm(liter, harga):
     total_harga = liter * harga
