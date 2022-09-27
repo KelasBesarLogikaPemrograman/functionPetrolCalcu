@@ -21,7 +21,7 @@ def identitas_pembeli(nama,nomor_hape,pekerjaan):
    return (nama, nomor_hape, pekerjaan)
 
 biodata_pembeli = identitas_pembeli("Ayang Aisyah Ananda Iqbal", "081324621545", "Mahasiswa")
-
+print (biodata_pembeli)
 
 #Diketahui terdapat jenis bahan bakar yang dapat diisi (pertalait, pertameks, dan selar)
 def jenis_bbm(bbm):
@@ -30,6 +30,7 @@ def jenis_bbm(bbm):
 
 #masukkan data bbm
 tipe_bbm =["pertalait","pertameks", "selar"]
+print (tipe_bbm)
 
 #harga untuk pertalait = 10000, pertamek = 12000, selar = 5000
 pertalait = 10000
