@@ -1,4 +1,3 @@
-
 def pengenalan_function() :
     print ("Selamat datang di SPBU UPNVJ FT")
 #mmeanggil fungsi untuk dapat  dijalankan
@@ -59,7 +58,6 @@ def belanja(uang):
   else:
     sisa_uang = 0
   return sisa_uang
-
 print("\n\nRecursion Example Results")
 belanja(200000)
 #output jika uang 720000 dan total_belanja 360000
