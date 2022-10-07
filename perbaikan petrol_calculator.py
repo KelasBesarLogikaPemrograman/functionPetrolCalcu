@@ -26,7 +26,7 @@ total_belanja = hitung_biaya_bbm(identifikasi_kendaraan[1], pertameks)
 print(total_belanja, "a")
 # print dengan contoh output yudi telah membeli tipe bbm selar seharga 12000 dengan total belanja 360000 rupiah
 nama = biodata_pembeli[0]
-bbm = "pertamek"
+bbm = "pertameks"
 print("Fauzan Hafiz telah membeli tipe bbm", bbm, "seharga", pertameks, "dengan total", total_belanja )
 #lakukan pembelajaan jika pembeli memiliki uang senilai tertentu lalu hitunglah sampai habis uangnya untuk dibelanjakan
 #gunakan recursion
